@@ -24,8 +24,8 @@ jobs:
           with:
             node-version: '12.x'
       - name: Creates contact file
-        run: date +%s > report.txt
-      - name: Commit report
+        run: node scripts/contacts.js
+      - name: Commit contacts
         run: |
           git config --global user.name 'Adam Bot'
           git config --global user.email 'admbradford@users.noreply.github.com'
