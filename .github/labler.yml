@@ -1,0 +1,5 @@
+updated-contact:
+  - sites/**/contacts.json
+
+updated-urls:
+  - sites/**/urls.json
